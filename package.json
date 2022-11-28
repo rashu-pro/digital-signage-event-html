@@ -1,0 +1,27 @@
+{
+  "name": "digital-signage-event-html",
+  "version": "1.0.0",
+  "description": "Digital Signage Event HTML Template",
+  "main": "digital-signage-event.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashu-pro/digital-signage-event-html.git"
+  },
+  "keywords": [
+    "digital",
+    "signage",
+    "wall",
+    "screen",
+    "event",
+    "display"
+  ],
+  "author": "rashu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rashu-pro/digital-signage-event-html/issues"
+  },
+  "homepage": "https://github.com/rashu-pro/digital-signage-event-html#readme"
+}
