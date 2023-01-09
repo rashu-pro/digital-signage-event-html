@@ -5,6 +5,9 @@ html, body {
   line-height: 1.5;
   box-sizing: border-box;
 }
+html *, body * {
+  box-sizing: border-box;
+}
 @media (min-width: 768px) {
   html, body {
     font-size: 14px;
@@ -17,7 +20,32 @@ html, body {
 }
 @media (min-width: 1600px) {
   html, body {
+    font-size: 14.5px;
+  }
+}
+@media (min-width: 1900px) {
+  html, body {
     font-size: 16px;
+  }
+}
+@media (min-width: 2400px) {
+  html, body {
+    font-size: 20px;
+  }
+}
+@media (min-width: 2800px) {
+  html, body {
+    font-size: 24px;
+  }
+}
+@media (min-width: 3200px) {
+  html, body {
+    font-size: 28px;
+  }
+}
+@media (min-width: 3800px) {
+  html, body {
+    font-size: 30px;
   }
 }
 
@@ -26,11 +54,11 @@ p {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 800;
 }
 

@@ -4,6 +4,9 @@ html,body{
   font-weight: 600;
   line-height: 1.5;
   box-sizing: border-box;
+  *{
+    box-sizing: border-box;
+  }
   @media (min-width: 768px){
     font-size: 14px;
   }
@@ -11,7 +14,27 @@ html,body{
     font-size: 16px;
   }
   @media (min-width: 1600px) {
+    font-size: 14.5px;
+  }
+
+  @media (min-width: 1900px) {
     font-size: 16px;
+  }
+
+  @media (min-width: 2400px){
+    font-size: 20px;
+  }
+
+  @media (min-width: 2800px){
+    font-size: 24px;
+  }
+
+  @media (min-width: 3200px){
+    font-size: 28px;
+  }
+
+  @media (min-width: 3800px){
+    font-size: 30px;
   }
 }
 p{
@@ -21,10 +44,10 @@ h2,h3,h4{
 
 }
 h3{
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 h2{
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 800;
 }
